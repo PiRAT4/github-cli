@@ -1,6 +1,6 @@
 # GitHub CLI
 
-`gh` is GitHub on the command line and this is a port for OpenBSD](https://www.openbsd.org).
+`gh` is GitHub on the command line and this is a port for [OpenBSD](https://www.openbsd.org).
 
 For more information please visit [https://cli.github.com](https://cli.github.com).
 
