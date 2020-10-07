@@ -9,7 +9,6 @@ V =					1.0.0
 MODGO_VERSION =		v$V
 
 HOMEPAGE =			https://cli.github.com/
-MAINTAINER =		Ricardo Santos <risantos@pm.me>
 
 # MIT
 PERMIT_PACKAGE =	Yes
