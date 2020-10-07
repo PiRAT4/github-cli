@@ -16,4 +16,4 @@ Read shared items: ok
 
 ## Thanks
 
-* [All `gh` contributors](https://github.com/cli/cli/graphs/contributors) for developing the software in the first place
+* All `gh` [contributors](https://github.com/cli/cli/graphs/contributors) for developing the software in the first place
