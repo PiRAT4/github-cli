@@ -1,6 +1,6 @@
 # GitHub CLI
 
-[OpenBSD](https://www.openbsd.org) port of `gh`.
+[OpenBSD](https://www.openbsd.org) port of `github-cli`.
 
 For more information please visit [https://cli.github.com](https://cli.github.com).
 
@@ -9,8 +9,7 @@ For more information please visit [https://cli.github.com](https://cli.github.co
 As soon as this port gets imported to OpenBSD, you'll be able to install it with `pkg_add`:
 
 ```shell
-$ doas pkg_add gh-cli
-gh-cli-1.0.0: ok
+$ doas pkg_add github-cli
 ```
 
 ## Thanks
