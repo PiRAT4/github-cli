@@ -6,7 +6,7 @@ For more information please visit [https://cli.github.com](https://cli.github.co
 
 ## Installation
 
-As soon as this port gets imported to OpenBSD, you'll be able to install it with `pkg_add`:
+As soon as this port gets imported on OpenBSD, you'll be able to install it with `pkg_add`:
 
 ```shell
 $ doas pkg_add github-cli
