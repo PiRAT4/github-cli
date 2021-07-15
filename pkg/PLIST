@@ -1,5 +1,6 @@
 @comment $OpenBSD: PLIST,v$
 @bin bin/gh
+@man man/man1/gh-actions.1
 @man man/man1/gh-alias-delete.1
 @man man/man1/gh-alias-list.1
 @man man/man1/gh-alias-set.1
@@ -10,6 +11,7 @@
 @man man/man1/gh-auth-refresh.1
 @man man/man1/gh-auth-status.1
 @man man/man1/gh-auth.1
+@man man/man1/gh-browse.1
 @man man/man1/gh-completion.1
 @man man/man1/gh-config-get.1
 @man man/man1/gh-config-set.1
@@ -29,6 +31,7 @@
 @man man/man1/gh-issue-list.1
 @man man/man1/gh-issue-reopen.1
 @man man/man1/gh-issue-status.1
+@man man/man1/gh-issue-transfer.1
 @man man/man1/gh-issue-view.1
 @man man/man1/gh-issue.1
 @man man/man1/gh-pr-checkout.1
@@ -59,6 +62,12 @@
 @man man/man1/gh-repo-list.1
 @man man/man1/gh-repo-view.1
 @man man/man1/gh-repo.1
+@man man/man1/gh-run-download.1
+@man man/man1/gh-run-list.1
+@man man/man1/gh-run-rerun.1
+@man man/man1/gh-run-view.1
+@man man/man1/gh-run-watch.1
+@man man/man1/gh-run.1
 @man man/man1/gh-secret-list.1
 @man man/man1/gh-secret-remove.1
 @man man/man1/gh-secret-set.1
@@ -66,4 +75,10 @@
 @man man/man1/gh-ssh-key-add.1
 @man man/man1/gh-ssh-key-list.1
 @man man/man1/gh-ssh-key.1
+@man man/man1/gh-workflow-disable.1
+@man man/man1/gh-workflow-enable.1
+@man man/man1/gh-workflow-list.1
+@man man/man1/gh-workflow-run.1
+@man man/man1/gh-workflow-view.1
+@man man/man1/gh-workflow.1
 @man man/man1/gh.1
