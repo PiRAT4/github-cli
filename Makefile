@@ -1,23 +1,26 @@
 # $OpenBSD$
 
-BROKEN-aarch64=	old kr/pty doesn't support OpenBSD arm arches; needs creack/pty@v1.1.11
-BROKEN-armv7=	old kr/pty doesn't support OpenBSD arm arches; needs creack/pty@v1.1.11
+BROKEN-aarch64 =	old kr/pty doesn't support OpenBSD arm arches; needs creack/pty@v1.1.11
+BROKEN-armv7 =		old kr/pty doesn't support OpenBSD arm arches; needs creack/pty@v1.1.11
 
 COMMENT =	command-line access to github pull requests, issues and more
-DISTNAME =	cli-${MODGO_VERSION}
+
 V =		1.12.1
-PKGNAME =	github-cli-$V
 MODGO_MODNAME =	github.com/cli/cli
 MODGO_VERSION =	v$V
-CATEGORIES =	devel
 
+DISTNAME =	cli-${MODGO_VERSION}
+PKGNAME =	github-cli-$V
+
+CATEGORIES =	devel
 HOMEPAGE =	https://cli.github.com/
 
 # MIT
 PERMIT_PACKAGE =	Yes
 
-WANTLIB += 	c pthread
+SEPARATE_BUILD =	Yes
 
+WANTLIB +=	c pthread
 MODULES =	lang/go
 MODGO_LDFLAGS +=	-X "github.com/cli/cli/internal/build.Version=$V"
 
