@@ -5,10 +5,9 @@ BROKEN-armv7 =		old kr/pty doesn't support OpenBSD arm arches; needs creack/pty@
 
 COMMENT =		command-line access to github pull requests, issues and more
 
-V =			1.12.1
+V =			1.13.1
 MODGO_MODNAME =		github.com/cli/cli
 MODGO_VERSION =		v$V
-REVISION =		1
 
 DISTNAME =		cli-${MODGO_VERSION}
 PKGNAME =		github-cli-$V
@@ -19,13 +18,12 @@ HOMEPAGE =		https://cli.github.com/
 # MIT
 PERMIT_PACKAGE =	Yes
 
-SEPARATE_BUILD =	Yes
-
 WANTLIB +=		c pthread
 
 MODULES =		lang/go
-
 MODGO_LDFLAGS +=	-X "github.com/cli/cli/internal/build.Version=$V"
+
+SEPARATE_BUILD =	Yes
 
 do-test:
 	cd ${WRKSRC} && ${MODGO_TEST_CMD} ./...
