@@ -1,11 +1,8 @@
-# $OpenBSD$
-
-BROKEN-aarch64 =	old kr/pty doesn't support OpenBSD arm arches; needs creack/pty@v1.1.11
-BROKEN-armv7 =		old kr/pty doesn't support OpenBSD arm arches; needs creack/pty@v1.1.11
+# $OpenBSD: Makefile,v 1.1.1.1 2021/08/01 12:20:44 sthen Exp $
 
 COMMENT =		command-line access to github pull requests, issues and more
 
-V =			1.13.1
+V =			1.14.0
 MODGO_MODNAME =		github.com/cli/cli
 MODGO_VERSION =		v$V
 

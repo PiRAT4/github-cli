@@ -6,8 +6,6 @@ For more information please visit [https://cli.github.com](https://cli.github.co
 
 ## Installation
 
-As soon as this port gets imported into OpenBSD, you'll be able to install it with `pkg_add`:
-
 ```shell
 $ doas pkg_add github-cli
 ```
@@ -15,5 +13,6 @@ $ doas pkg_add github-cli
 ## Thanks
 
 * All `gh` [contributors](https://github.com/cli/cli/graphs/contributors) for developing the software in the first place
-* `abieber@` for introducing me to `portgen`
-* `sthen@` for helping me with the port
+* `abieber@` for introducing me to `portgen(1)`
+* `sthen@` for all the help and feedback given
+* `jca@` for testing and and feedback given
