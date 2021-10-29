@@ -1,9 +1,9 @@
-# $OpenBSD: Makefile,v 1.1.1.1 2021/08/01 12:20:44 sthen Exp $
+# $OpenBSD: Makefile,v 1.3 2021/08/14 07:01:23 tb Exp $
 
 COMMENT =		command-line access to github pull requests, issues and more
 
-V =			1.14.0
-MODGO_MODNAME =		github.com/cli/cli
+V =			2.2.0
+MODGO_MODNAME =		github.com/cli/cli/v2
 MODGO_VERSION =		v$V
 
 DISTNAME =		cli-${MODGO_VERSION}
@@ -29,6 +29,6 @@ post-install:
 	${WRKDIR}/go/bin/gen-docs --doc-path ${PREFIX}/man/man1 --man-page
 	rm ${PREFIX}/bin/gen-docs
 
-.include "./modules.inc"
+.include "modules.inc"
 
 .include <bsd.port.mk>
