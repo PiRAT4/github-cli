@@ -1,4 +1,4 @@
-# $OpenBSD$
+# $OpenBSD: modules.inc,v 1.3 2021/10/29 15:48:02 kn Exp $
 
 MODGO_MODULES =	\
 	cloud.google.com/go					 v0.81.0 \

@@ -1,4 +1,4 @@
-@comment $OpenBSD: PLIST,v 1.1.1.1 2021/08/01 12:20:44 sthen Exp $
+@comment $OpenBSD: PLIST,v 1.2 2021/10/29 15:48:02 kn Exp $
 @bin bin/gh
 @man man/man1/gh-actions.1
 @man man/man1/gh-alias-delete.1

@@ -1,10 +1,11 @@
-# $OpenBSD: Makefile,v 1.3 2021/08/14 07:01:23 tb Exp $
+# $OpenBSD: Makefile,v 1.6 2021/10/30 00:23:09 kn Exp $
 
 COMMENT =		command-line access to github pull requests, issues and more
 
 V =			2.2.0
 MODGO_MODNAME =		github.com/cli/cli/v2
 MODGO_VERSION =		v$V
+REVISION =		0
 
 DISTNAME =		cli-${MODGO_VERSION}
 PKGNAME =		github-cli-$V
@@ -18,7 +19,7 @@ PERMIT_PACKAGE =	Yes
 WANTLIB +=		c pthread
 
 MODULES =		lang/go
-MODGO_LDFLAGS +=	-X "github.com/cli/cli/internal/build.Version=$V"
+MODGO_LDFLAGS +=	-X "github.com/cli/cli/v${V:R:R}/internal/build.Version=$V"
 
 SEPARATE_BUILD =	Yes
 
