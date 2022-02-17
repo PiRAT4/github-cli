@@ -72,7 +72,6 @@
 @man man/man1/gh-pr-view.1
 @man man/man1/gh-pr.1
 @man man/man1/gh-release-create.1
-@man man/man1/gh-release-delete-asset.1
 @man man/man1/gh-release-delete.1
 @man man/man1/gh-release-download.1
 @man man/man1/gh-release-list.1
@@ -83,10 +82,6 @@
 @man man/man1/gh-repo-clone.1
 @man man/man1/gh-repo-create.1
 @man man/man1/gh-repo-delete.1
-@man man/man1/gh-repo-deploy-key-add.1
-@man man/man1/gh-repo-deploy-key-delete.1
-@man man/man1/gh-repo-deploy-key-list.1
-@man man/man1/gh-repo-deploy-key.1
 @man man/man1/gh-repo-edit.1
 @man man/man1/gh-repo-fork.1
 @man man/man1/gh-repo-list.1
