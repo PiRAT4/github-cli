@@ -1,4 +1,3 @@
-@comment $OpenBSD: PLIST,v 1.4 2021/12/25 11:19:40 kn Exp $
 @bin bin/gh
 @man man/man1/gh-alias-delete.1
 @man man/man1/gh-alias-list.1
@@ -16,6 +15,7 @@
 @man man/man1/gh-codespace-cp.1
 @man man/man1/gh-codespace-create.1
 @man man/man1/gh-codespace-delete.1
+@man man/man1/gh-codespace-edit.1
 @man man/man1/gh-codespace-list.1
 @man man/man1/gh-codespace-logs.1
 @man man/man1/gh-codespace-ports-forward.1
@@ -101,6 +101,8 @@
 @man man/man1/gh-run-view.1
 @man man/man1/gh-run-watch.1
 @man man/man1/gh-run.1
+@man man/man1/gh-search-repos.1
+@man man/man1/gh-search.1
 @man man/man1/gh-secret-list.1
 @man man/man1/gh-secret-remove.1
 @man man/man1/gh-secret-set.1
