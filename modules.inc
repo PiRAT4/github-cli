@@ -5,16 +5,17 @@ MODGO_MODULES =	\
 	cloud.google.com/go/pubsub				 v1.3.1 \
 	cloud.google.com/go/storage				 v1.10.0 \
 	dmitri.shuralyov.com/gpu/mtl				 v0.0.0-20190408044501-666a987793e9 \
-	github.com/!alec!aivazis/survey/v2			 v2.3.2 \
+	github.com/!alec!aivazis/survey/v2			 v2.3.4 \
 	github.com/!burnt!sushi/toml				 v0.3.1 \
 	github.com/!burnt!sushi/xgb				 v0.0.0-20160522181843-27f122750802 \
 	github.com/!make!now!just/heredoc			 v1.0.0 \
-	github.com/!netflix/go-expect				 v0.0.0-20180615182759-c93bf25de8e8 \
+	github.com/!netflix/go-expect				 v0.0.0-20220104043353-73e0943537d2 \
 	github.com/alecthomas/chroma				 v0.10.0 \
 	github.com/aymerick/douceur				 v0.2.0 \
 	github.com/briandowns/spinner				 v1.18.1 \
 	github.com/census-instrumentation/opencensus-proto	 v0.2.1 \
 	github.com/charmbracelet/glamour			 v0.4.0 \
+	github.com/charmbracelet/lipgloss			 v0.5.0 \
 	github.com/chzyer/logex					 v1.1.10 \
 	github.com/chzyer/readline				 v0.0.0-20180603132655-2972be24d48e \
 	github.com/chzyer/test					 v0.0.0-20180213035817-a1ea475d72b1 \
@@ -26,7 +27,7 @@ MODGO_MODULES =	\
 	github.com/client9/misspell				 v0.3.4 \
 	github.com/cncf/udpa/go					 v0.0.0-20191209042840-269d4d468f6f \
 	github.com/cpuguy83/go-md2man/v2			 v2.0.1 \
-	github.com/creack/pty					 v1.1.17 \
+	github.com/creack/pty					 v1.1.18 \
 	github.com/davecgh/go-spew				 v1.1.1 \
 	github.com/dlclark/regexp2				 v1.4.0 \
 	github.com/envoyproxy/go-control-plane			 v0.9.4 \
@@ -54,7 +55,7 @@ MODGO_MODULES =	\
 	github.com/hashicorp/go-version				 v1.3.0 \
 	github.com/hashicorp/golang-lru				 v0.5.1 \
 	github.com/henvic/httpretty				 v0.0.6 \
-	github.com/hinshun/vt10x				 v0.0.0-20180616224451-1954e6464174 \
+	github.com/hinshun/vt10x				 v0.0.0-20220119200601-820417d04eec \
 	github.com/ianlancetaylor/demangle			 v0.0.0-20181102032728-5e5cf60278f6 \
 	github.com/inconshreveable/mousetrap			 v1.0.0 \
 	github.com/itchyny/gojq					 v0.12.7 \
@@ -64,7 +65,7 @@ MODGO_MODULES =	\
 	github.com/kballard/go-shellquote			 v0.0.0-20180428030007-95032a82bc51 \
 	github.com/kisielk/gotool				 v1.0.0 \
 	github.com/kr/pretty					 v0.1.0 \
-	github.com/kr/pty					 v1.1.4 \
+	github.com/kr/pty					 v1.1.1 \
 	github.com/kr/text					 v0.1.0 \
 	github.com/lucasb-eyer/go-colorful			 v1.2.0 \
 	github.com/mattn/go-colorable				 v0.1.12 \
@@ -73,7 +74,7 @@ MODGO_MODULES =	\
 	github.com/mgutz/ansi					 v0.0.0-20200706080929-d51e80ef957d \
 	github.com/microcosm-cc/bluemonday			 v1.0.17 \
 	github.com/muesli/reflow				 v0.3.0 \
-	github.com/muesli/termenv				 v0.9.0 \
+	github.com/muesli/termenv				 v0.11.1-0.20220204035834-5ac8409525e0 \
 	github.com/muhammadmuzzammil1998/jsonc			 v0.0.0-20201229145248-615b0916ca38 \
 	github.com/olekukonko/tablewriter			 v0.0.5 \
 	github.com/opentracing/opentracing-go			 v1.1.0 \
@@ -88,7 +89,7 @@ MODGO_MODULES =	\
 	github.com/spf13/cobra					 v1.4.0 \
 	github.com/spf13/pflag					 v1.0.5 \
 	github.com/stretchr/objx				 v0.1.0 \
-	github.com/stretchr/testify				 v1.7.0 \
+	github.com/stretchr/testify				 v1.7.1 \
 	github.com/yuin/goldmark				 v1.4.4 \
 	github.com/yuin/goldmark-emoji				 v1.0.1 \
 	go.opencensus.io					 v0.22.4 \
@@ -150,6 +151,7 @@ MODGO_MODFILES =	\
 	cloud.google.com/go/storage		 v1.6.0 \
 	cloud.google.com/go/storage		 v1.8.0 \
 	github.com/cli/browser			 v1.0.0 \
+	github.com/creack/pty			 v1.1.17 \
 	github.com/davecgh/go-spew		 v1.1.0 \
 	github.com/envoyproxy/go-control-plane	 v0.9.0 \
 	github.com/envoyproxy/go-control-plane	 v0.9.1-0.20191026205805-5f8ba28d4473 \
@@ -193,16 +195,19 @@ MODGO_MODFILES =	\
 	github.com/gorilla/websocket		 v1.4.1 \
 	github.com/hashicorp/golang-lru		 v0.5.0 \
 	github.com/jstemmer/go-junit-report	 v0.0.0-20190106144839-af01ea7f8024 \
-	github.com/kr/pty			 v1.1.1 \
 	github.com/mattn/go-colorable		 v0.1.2 \
 	github.com/mattn/go-isatty		 v0.0.13 \
 	github.com/mattn/go-isatty		 v0.0.8 \
+	github.com/mattn/go-runewidth		 v0.0.10 \
 	github.com/mattn/go-runewidth		 v0.0.12 \
 	github.com/mattn/go-runewidth		 v0.0.9 \
 	github.com/mgutz/ansi			 v0.0.0-20170206155736-9520e82c474b \
+	github.com/muesli/reflow		 v0.2.1-0.20210115123740-9e1d0d53df68 \
+	github.com/muesli/termenv		 v0.9.0 \
 	github.com/rivo/uniseg			 v0.1.0 \
-	github.com/stretchr/testify		 v1.2.1 \
 	github.com/stretchr/testify		 v1.4.0 \
+	github.com/stretchr/testify		 v1.6.1 \
+	github.com/stretchr/testify		 v1.7.0 \
 	github.com/yuin/goldmark		 v1.1.25 \
 	github.com/yuin/goldmark		 v1.1.27 \
 	github.com/yuin/goldmark		 v1.1.32 \
@@ -213,7 +218,6 @@ MODGO_MODFILES =	\
 	go.opencensus.io			 v0.22.3 \
 	golang.org/x/crypto			 v0.0.0-20190308221718-c2843e01d9a2 \
 	golang.org/x/crypto			 v0.0.0-20190510104115-cbcb75029529 \
-	golang.org/x/crypto			 v0.0.0-20190530122614-20be4c3c3ed5 \
 	golang.org/x/crypto			 v0.0.0-20190605123033-f99c8df09eb5 \
 	golang.org/x/crypto			 v0.0.0-20191011191535-87dc89f01550 \
 	golang.org/x/crypto			 v0.0.0-20200622213623-75b288015ac9 \
